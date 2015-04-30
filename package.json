@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-customevent-polyfill",
+  "version": "1.0.4-dev",
+  "description": "customEvent ===========",
+  "cordova": {
+    "id": "cordova-plugin-customevent-polyfill",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MobileChromeApps/cordova-plugin-customevent-polyfill.git"
+  },
+  "keywords": [
+    "chrome",
+    "polyfill",
+    "custom",
+    "event",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/MobileChromeApps/cordova-plugin-customevent-polyfill/issues"
+  },
+  "homepage": "https://github.com/MobileChromeApps/cordova-plugin-customevent-polyfill"
+}
