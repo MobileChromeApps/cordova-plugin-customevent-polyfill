@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-customevent-polyfill",
-  "version": "1.0.5-dev",
-  "description": "customEvent ===========",
+  "version": "1.0.5",
+  "description": "Cordova polyfill for CustomEvent",
   "cordova": {
     "id": "cordova-plugin-customevent-polyfill",
     "platforms": [

@@ -1,9 +1,8 @@
-customEvent
-===========
+# cordova-plugin-custom-event
 
 A Cordova plugin which provides the CustomEvent constructor API to Android browsers
 
-##Overview
+## Overview
 
 See https://developer.mozilla.org/en-US/docs/DOM/Event/CustomEvent for the full
 API.
@@ -14,7 +13,7 @@ listeners. It is supported by Chrome and Safari, but not by the Android webview
 (at least as of 4.2.2). This plugin provides that interface to Android-based
 Cordova apps.
 
-##Installation
+## Installation
 
 ### Cordova 2.7 or later with cordova cli and Plugman
 
@@ -22,7 +21,7 @@ Cordova apps.
         cordova plugin add directory-of-the-customEvent-plugin
     to add the plugin
 
-##Usage
+## Usage
 
 ### Basic usage
 
@@ -46,5 +45,11 @@ Cordova apps.
     document.dispatchEvent(make_an_alert);
 
 # Release Notes
+## 1.0.5 (May 5, 2015)
+* Fix typo: `info.details` -> `info.detail`
+
+## 1.0.4 (April, 2014)
+* Change to being publish on NPM
+
 ## 1.0.3 (October 21, 2014)
-- Documentation updates.
+* Documentation updates.
